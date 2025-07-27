@@ -1,0 +1,41 @@
+# Node.js specific
+node_modules
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log
+yarn-debug.log.*
+yarn-error.log
+.pnp
+.pnp.js
+
+# Git
+.git
+.gitignore
+
+# Environment variables
+.env
+.env.*
+.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts (if your frontend builds into 'dist' or 'build')
+# Since you're containerizing the Node.js *backend*, you likely don't
+# need the compiled frontend code in the backend image.
+dist
+build
+
+# Test files (as per your ls output)
+test
+
+# Editor/IDE specific
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db

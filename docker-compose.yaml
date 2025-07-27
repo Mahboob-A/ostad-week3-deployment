@@ -1,7 +1,8 @@
 services:
   app:
     # build: . (for local build)
-    image: imehboob/ostad-week3-docker-express:1.0
+    # dockerhub url: https://hub.docker.com/r/imehboob/ostad-week3-docker-express/
+    image: imehboob/ostad-week3-docker-express:1.1.0
     environment:
       NODE_ENV: production
 
